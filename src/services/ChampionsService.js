@@ -15,7 +15,18 @@ export default class ChampionsService {
     }
 
     getChampions() {
-		return this._getAllChampions();
+		return this._getAllChampions().then(d => {
+			d.sort((a, b) => {
+				if (a.name < b.name) {
+					return -1;
+				  }
+				  if (a.name > b.name) {
+					return 1;
+				  }
+				  return 0;
+			});
+			return d;
+		});;
 	}
 
 	getChampionsById(ids) {
