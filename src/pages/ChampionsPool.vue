@@ -1,25 +1,33 @@
 <template>
     <div class="d-flex flex-row main">
-        <div class="champ-pool d-flex flex-row">
-            <ul class="nav nav-tabs d-flex flex-column justify-content-evenly menu-bar">
-                <li class="nav-item d-flex justify-content-center align-items-center menu-bar-item activate" @click="showTopChampions()">
-                    Top
-                </li>
-                <li class="nav-item d-flex justify-content-center align-items-center menu-bar-item" @click="showJungleChampions()">
-                    Jungle
-                </li>
-                <li class="nav-item d-flex justify-content-center align-items-center menu-bar-item" @click="showMidChampions()">
-                    Mid
-                </li>
-                <li class="nav-item d-flex justify-content-center align-items-center menu-bar-item" @click="showAdcChampions()">
-                    ADC
-                </li>
-                <li class="nav-item d-flex justify-content-center align-items-center menu-bar-item" @click="showSupportChampions()">
-                    Support
-                </li>
-            </ul>
+        <div class="champ-pool d-flex flex-column">
+            <h3>Top</h3>
             <div class="d-flex flex-row flex-wrap" style="width: 100%;">
-                <div v-for="champion in champions" @click="changeChampionDetail(champion)">
+                <div v-for="champion in championsTop" @click="changeChampionDetail(champion)">
+                    <ChampionCard :champion="champion" ></ChampionCard>
+                </div>
+            </div>
+            <h3>Jungle</h3>
+            <div class="d-flex flex-row flex-wrap" style="width: 100%;">
+                <div v-for="champion in championsJungle" @click="changeChampionDetail(champion)">
+                    <ChampionCard :champion="champion" ></ChampionCard>
+                </div>
+            </div>
+            <h3>Mid</h3>
+            <div class="d-flex flex-row flex-wrap" style="width: 100%;">
+                <div v-for="champion in championsMid" @click="changeChampionDetail(champion)">
+                    <ChampionCard :champion="champion" ></ChampionCard>
+                </div>
+            </div>
+            <h3>Adc</h3>
+            <div class="d-flex flex-row flex-wrap" style="width: 100%;">
+                <div v-for="champion in championsAdc" @click="changeChampionDetail(champion)">
+                    <ChampionCard :champion="champion" ></ChampionCard>
+                </div>
+            </div>
+            <h3>Support</h3>
+            <div class="d-flex flex-row flex-wrap" style="width: 100%;">
+                <div v-for="champion in championsSupport" @click="changeChampionDetail(champion)">
                     <ChampionCard :champion="champion" ></ChampionCard>
                 </div>
             </div>
@@ -44,36 +52,25 @@ export default {
 	},
     data() {
 		return {
-			champions: null,
+			championsTop: null,
+            championsJungle: null,
+            championsMid: null,
+            championsAdc: null,
+            championsSupport: null,
             championSelected: null
 		}
 	},
     mounted() {
-        this.showTopChampions();
+        const championsPoolService = new ChampionsPoolService();
+        championsPoolService.getChampionsTop().then(data => this.championsTop = data);
+        championsPoolService.getChampionsJungle().then(data => this.championsJungle = data);
+        championsPoolService.getChampionsMid().then(data => this.championsMid = data);
+        championsPoolService.getChampionsAdc().then(data => this.championsAdc = data);
+        championsPoolService.getChampionsSupport().then(data => this.championsSupport = data);
     },
     methods: {
         changeChampionDetail(champ) {
             this.championSelected = champ;
-        },
-        showTopChampions(){
-            const championsPoolService = new ChampionsPoolService();
-            championsPoolService.getChampionsTop().then(data => this.champions = data);
-        },
-        showJungleChampions(){
-            const championsPoolService = new ChampionsPoolService();
-            championsPoolService.getChampionsJungle().then(data => this.champions = data);
-        },
-        showMidChampions(){
-            const championsPoolService = new ChampionsPoolService();
-            championsPoolService.getChampionsMid().then(data => this.champions = data);
-        },
-        showAdcChampions(){
-            const championsPoolService = new ChampionsPoolService();
-            championsPoolService.getChampionsAdc().then(data => this.champions = data);
-        },
-        showSupportChampions(){
-            const championsPoolService = new ChampionsPoolService();
-            championsPoolService.getChampionsSupport().then(data => this.champions = data);
         }
     }
 }
