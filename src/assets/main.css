@@ -1,0 +1,39 @@
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+#app{
+  height: 100%;
+}
+
+.champ-pool{
+  height: 100%;
+  width: 60%;
+}
+
+.menu-bar{
+  background-color: white;
+  height: 50%;
+  width: 100px;
+  border-right: 2px black solid;
+}
+
+.menu-bar-item{
+  height: 50px;
+}
+
+.menu-bar-item:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.main{
+  height: 100%;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
