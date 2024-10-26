@@ -1,3 +1,39 @@
+<script>
+import ChampionsPoolService from '@/services/ChampionsPoolService';
+import ChampionCard from '@/components/ChampionCard.vue';
+import ChampionDetail from '@/components/ChampionDetail.vue';
+
+export default {
+    components: {
+		ChampionCard,
+        ChampionDetail
+	},
+    data() {
+		return {
+			championsTop: null,
+            championsJungle: null,
+            championsMid: null,
+            championsAdc: null,
+            championsSupport: null,
+            championSelected: null
+		}
+	},
+    mounted() {
+        const championsPoolService = new ChampionsPoolService();
+        championsPoolService.getChampionsTop().then(data => this.championsTop = data);
+        championsPoolService.getChampionsJungle().then(data => this.championsJungle = data);
+        championsPoolService.getChampionsMid().then(data => this.championsMid = data);
+        championsPoolService.getChampionsAdc().then(data => this.championsAdc = data);
+        championsPoolService.getChampionsSupport().then(data => this.championsSupport = data);
+    },
+    methods: {
+        changeChampionDetail(champ) {
+            this.championSelected = champ;
+        }
+    }
+}
+</script>
+
 <template>
     <div class="d-flex flex-row main">
         <div class="champ-pool d-flex flex-column">
@@ -40,38 +76,9 @@
 
 </template>
 
-<script>
-import ChampionsPoolService from '@/services/ChampionsPoolService';
-import ChampionCard from '@/components/ChampionCard.vue';
-import ChampionDetail from '@/components/ChampionDetail.vue';
-
-export default {
-    components: {
-		ChampionCard,
-        ChampionDetail
-	},
-    data() {
-		return {
-			championsTop: null,
-            championsJungle: null,
-            championsMid: null,
-            championsAdc: null,
-            championsSupport: null,
-            championSelected: null
-		}
-	},
-    mounted() {
-        const championsPoolService = new ChampionsPoolService();
-        championsPoolService.getChampionsTop().then(data => this.championsTop = data);
-        championsPoolService.getChampionsJungle().then(data => this.championsJungle = data);
-        championsPoolService.getChampionsMid().then(data => this.championsMid = data);
-        championsPoolService.getChampionsAdc().then(data => this.championsAdc = data);
-        championsPoolService.getChampionsSupport().then(data => this.championsSupport = data);
-    },
-    methods: {
-        changeChampionDetail(champ) {
-            this.championSelected = champ;
-        }
-    }
+<style scoped>
+.champ-pool{
+  height: 100%;
+  width: 60%;
 }
-</script>
+</style>

@@ -1,53 +1,53 @@
-<script>
-export default {
-  methods: {
-    getRoute() {
-      return this.$route.name;
-    }
-  }
+<script setup>
+import { ref } from 'vue';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+const themeDark = ref(false) 
+if(localStorage.getItem('isDark')){
+  themeDark.value = localStorage.getItem('isDark')=="true";
+}
+const getRoute = ()=>{
+  return route.name;
+}
+const changeTheme = ()=>{
+  themeDark.value=!themeDark.value;
+  localStorage.setItem('isDark', themeDark.value);
 }
 </script>
 
 <template>
-  <ul class="nav nav-tabs" style="background-color: #e3f2fd; width: 100%;">
-    <li class="nav-item">
-      <router-link class="nav-link" :class="getRoute()=='champions'?'active':''" to="/">Champions</router-link>
-    </li>
-    <li class="nav-item">
-      <router-link class="nav-link" :class="getRoute()=='championsPool'?'active':''" to="champions-pool">Champions pool</router-link>
-    </li>
-    <li class="nav-item">
-      <router-link class="nav-link" :class="getRoute()=='teamComp'?'active':''" to="team-comp">Team comp</router-link>
-    </li>
-  </ul>
-  <router-view/>
+  <div class="d-flex justify-content-between" :class="themeDark?'dark':'light'" style="height: 50px;">
+    <ul class="nav nav-tabs menu-nav" style="width: 100%;">
+      <li class="nav-item">
+        <router-link class="nav-link d-flex justify-content-center align-items-center" :class="getRoute()=='champions'?'active':''" to="/">Champions</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link d-flex justify-content-center align-items-center" :class="getRoute()=='championsPool'?'active':''" to="champions-pool">Champions pool</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link d-flex justify-content-center align-items-center" :class="getRoute()=='teamComp'?'active':''" to="team-comp">Team comp</router-link>
+      </li>
+    </ul>
+    <div class="form-check form-switch menu-nav" style="padding-top: 10px; padding-right: 10px;">
+      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" :checked="themeDark" @click="changeTheme()">
+      <label class="form-check-label" for="flexSwitchCheckDefault"><font-awesome-icon :icon="themeDark?['fas', 'moon']:['fas', 'sun']"/></label>
+    </div>
+  </div>
+  <div :class="themeDark?'dark':'light'">
+    <router-view/>
+  </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+.nav-link{
+  color: #C79A3B !important;
+  width: 160px;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.menu-nav{
+  height: 100%;
+  color: #C79A3B !important;
+  border-bottom: none;
 }
 </style>

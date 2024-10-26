@@ -1,22 +1,52 @@
+.dark {
+  --background-menu-color:#0A0A0A;
+  --text-color:#cccccc;
+  --primary-color:#161616;
+  --secondary-color:#2A2A2A;
+  --hover-menu-color:#39393b;
+  --opacity-image:0.6;
+
+  background-color: var(--primary-color);
+  color: var(--text-color);
+
+}
+
+.light {
+  --background-menu-color:#031542;;
+  --text-color:#000000;
+  --primary-color:#ecf8ff;
+  --secondary-color:#01678B;
+  --hover-menu-color:#0177a1;
+  --opacity-image:0.85;
+
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+@font-face {
+  font-family: 'FF Mark W05';
+  src: url("./fonts/cdb13a7a-2f13-4f7c-b7a3-01b4ccef574d.woff2") format('woff2');
+}
+
 html,body {
   height: 100%;
   margin: 0;
+  font-family: 'FF Mark W05' !important;
 }
 
 #app{
   height: 100%;
 }
 
-.champ-pool{
+.active{
+  background-color: var(--secondary-color) !important;
   height: 100%;
-  width: 60%;
+  font-size: 1.1rem !important;
+  border: none !important;
 }
 
-.menu-bar{
-  background-color: white;
-  height: 50%;
-  width: 100px;
-  border-right: 2px black solid;
+.menu-nav{
+  background-color: var(--background-menu-color);
 }
 
 .menu-bar-item{
@@ -32,8 +62,15 @@ html,body {
   height: 100%;
 }
 
+a{
+  height: 100%;
+  border: none !important;
+}
+
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: var(--hover-menu-color);
+    font-size: 1.1rem !important;
   }
 }
+
