@@ -1,5 +1,6 @@
 .dark {
   --background-menu-color:#0A0A0A;
+  --text-menu-color:#C79A3B;
   --text-color:#cccccc;
   --primary-color:#161616;
   --secondary-color:#2A2A2A;
@@ -13,6 +14,7 @@
 
 .light {
   --background-menu-color:#031542;;
+  --text-menu-color:#ffd700;
   --text-color:#000000;
   --primary-color:#ecf8ff;
   --secondary-color:#01678B;

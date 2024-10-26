@@ -14,7 +14,7 @@ export default class ChampionsService {
 		}
     }
 
-    getChampions() {
+    getChampions(filter) {
 		return this._getAllChampions().then(d => {
 			d.sort((a, b) => {
 				if (a.name < b.name) {
@@ -25,6 +25,36 @@ export default class ChampionsService {
 				  }
 				  return 0;
 			});
+			if(filter.hardcc){
+				d = d.filter((c) => {
+					return c.hardCC == true
+				});
+			}
+			if(filter.engage){
+				d = d.filter((c) => {
+					return c.hardEngage == true
+				});
+			}
+			if(filter.dissengage){
+				d = d.filter((c) => {
+					return c.dissengage == true
+				});
+			}
+			if(filter.poke){
+				d = d.filter((c) => {
+					return c.poke == true
+				});
+			}
+			if(filter.waveClear){
+				d = d.filter((c) => {
+					return c.waveclear == true
+				});
+			}
+			if(filter.tank){
+				d = d.filter((c) => {
+					return c.tank == true
+				});
+			}
 			return d;
 		});;
 	}

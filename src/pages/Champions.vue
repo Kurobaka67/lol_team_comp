@@ -4,15 +4,48 @@ import ChampionCard from '@/components/ChampionCard.vue';
 import ChampionDetail from '@/components/ChampionDetail.vue';
 import { onMounted, ref } from 'vue';
 
+const championsService = new ChampionsService();
 const champions = ref(null);
 const championSelected = ref(null);
 const expanded = ref(false);
+const filter = ref({
+    "hardcc": false,
+    "engage": false,
+    "dissengage": false,
+    "poke": false,
+    "waveClear": false,
+    "tank": false
+});
+console.log(filter.value.hardcc);
 onMounted(() => {
-    const championsService = new ChampionsService();
-    championsService.getChampions().then(data => champions.value = data);
+    championsService.getChampions(filter.value).then(data => champions.value = data);
 })
 const changeChampionDetail = (champ) => {
     championSelected.value = champ;
+}
+const changeHardCc = () => {
+    filter.value.hardcc=!filter.value.hardcc;
+    championsService.getChampions(filter.value).then(data => champions.value = data);
+}
+const changeEngage = () => {
+    filter.value.engage=!filter.value.engage;
+    championsService.getChampions(filter.value).then(data => champions.value = data);
+}
+const changeDissengage = () => {
+    filter.value.dissengage=!filter.value.dissengage;
+    championsService.getChampions(filter.value).then(data => champions.value = data);
+}
+const changePoke = () => {
+    filter.value.poke=!filter.value.poke;
+    championsService.getChampions(filter.value).then(data => champions.value = data);
+}
+const changeWaveClear = () => {
+    filter.value.waveClear=!filter.value.waveClear;
+    championsService.getChampions(filter.value).then(data => champions.value = data);
+}
+const changeTank = () => {
+    filter.value.tank=!filter.value.tank;
+    championsService.getChampions(filter.value).then(data => champions.value = data);
 }
 </script>
 
@@ -69,37 +102,37 @@ const changeChampionDetail = (champ) => {
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item" style="padding-top: 8px; padding-left: 10px;">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="hardcc" value="hardcc">
+                                            <input class="form-check-input" type="checkbox" id="hardcc" @click="changeHardCc">
                                             <label class="form-check-label" for="hardcc">Hard CC</label>
                                         </div>
                                     </li>
                                     <li class="nav-item"  style="padding-top: 8px; padding-left: 10px;">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="engage" value="engage">
+                                            <input class="form-check-input" type="checkbox" id="engage" @click="changeEngage">
                                             <label class="form-check-label" for="engage">Engage</label>
                                         </div>
                                     </li>
                                     <li class="nav-item"  style="padding-top: 8px; padding-left: 10px;">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="dissengage" value="dissengage">
+                                            <input class="form-check-input" type="checkbox" id="dissengage" @click="changeDissengage">
                                             <label class="form-check-label" for="dissengage">Dissengage</label>
                                         </div>
                                     </li>
                                     <li class="nav-item"  style="padding-top: 8px; padding-left: 10px;">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="poke" value="poke">
+                                            <input class="form-check-input" type="checkbox" id="poke" @click="changePoke">
                                             <label class="form-check-label" for="poke">Poke</label>
                                         </div>
                                     </li>
                                     <li class="nav-item"  style="padding-top: 8px; padding-left: 10px;">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="waveclear" value="waveclear">
+                                            <input class="form-check-input" type="checkbox" id="waveclear" @click="changeWaveClear">
                                             <label class="form-check-label" for="waveclear">Wave clear</label>
                                         </div>
                                     </li>
                                     <li class="nav-item"  style="padding-top: 8px; padding-left: 10px;">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="tank" value="tank">
+                                            <input class="form-check-input" type="checkbox" id="tank" @click="changeTank">
                                             <label class="form-check-label" for="tank">Tank</label>
                                         </div>
                                     </li>

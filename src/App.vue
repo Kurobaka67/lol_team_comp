@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 
 const route = useRoute();
-const themeDark = ref(false) 
+const themeDark = ref(true) 
 if(localStorage.getItem('isDark')){
   themeDark.value = localStorage.getItem('isDark')=="true";
 }
@@ -34,20 +34,20 @@ const changeTheme = ()=>{
       <label class="form-check-label" for="flexSwitchCheckDefault"><font-awesome-icon :icon="themeDark?['fas', 'moon']:['fas', 'sun']"/></label>
     </div>
   </div>
-  <div :class="themeDark?'dark':'light'">
+  <div :class="themeDark?'dark':'light'" style="height: 100%;">
     <router-view/>
   </div>
 </template>
 
 <style scoped>
 .nav-link{
-  color: #C79A3B !important;
+  color: var(--text-menu-color) !important;
   width: 160px;
 }
 
 .menu-nav{
   height: 100%;
-  color: #C79A3B !important;
+  color: var(--text-menu-color) !important;
   border-bottom: none;
 }
 </style>
