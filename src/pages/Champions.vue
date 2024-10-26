@@ -57,7 +57,7 @@ watch(
 </script>
 
 <template>
-    <div class="d-flex">
+    <div class="d-flex main">
         <div class="d-flex flex-column" style="width: 60%;">
             <div class="filter">
                 <nav class="navbar navbar-expand-lg navbar-light filter-bar">
