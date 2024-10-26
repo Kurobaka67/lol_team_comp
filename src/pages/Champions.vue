@@ -2,13 +2,14 @@
 import ChampionsService from '@/services/ChampionsService';
 import ChampionCard from '@/components/ChampionCard.vue';
 import ChampionDetail from '@/components/ChampionDetail.vue';
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, watch } from 'vue';
 
 const championsService = new ChampionsService();
 const champions = ref(null);
 const championSelected = ref(null);
 const expanded = ref(false);
 const filter = ref({
+    "name": "",
     "hardcc": false,
     "engage": false,
     "dissengage": false,
@@ -16,7 +17,6 @@ const filter = ref({
     "waveClear": false,
     "tank": false
 });
-console.log(filter.value.hardcc);
 onMounted(() => {
     championsService.getChampions(filter.value).then(data => champions.value = data);
 })
@@ -47,6 +47,13 @@ const changeTank = () => {
     filter.value.tank=!filter.value.tank;
     championsService.getChampions(filter.value).then(data => champions.value = data);
 }
+
+watch(
+    () => filter.value.name,
+    (name) => {
+        championsService.getChampions(filter.value).then(data => champions.value = data);
+    }
+)
 </script>
 
 <template>
@@ -59,7 +66,7 @@ const changeTank = () => {
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <div class="d-flex">
-                                        <input class="form-control me-2" type="search" placeholder="Nom" aria-label="Search">
+                                        <input class="form-control me-2" type="search" placeholder="Nom" v-model="filter.name">
                                     </div>
                                 </li>
                                 <li class="nav-item" style="padding-right: 10px;">

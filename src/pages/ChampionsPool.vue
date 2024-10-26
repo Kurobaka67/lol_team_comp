@@ -36,7 +36,7 @@ export default {
 
 <template>
     <div class="d-flex flex-row main">
-        <div class="champ-pool d-flex flex-column">
+        <div class="champ-pool d-flex flex-column" style="height: 100%;">
             <h3>Top</h3>
             <div class="d-flex flex-row flex-wrap" style="width: 100%;">
                 <div v-for="champion in championsTop" @click="changeChampionDetail(champion)">

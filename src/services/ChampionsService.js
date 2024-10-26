@@ -25,34 +25,39 @@ export default class ChampionsService {
 				  }
 				  return 0;
 			});
+			if(filter.name != ""){
+				d = d.filter((c) => {
+					return c.name.toLowerCase().includes(filter.name);
+				});
+			}
 			if(filter.hardcc){
 				d = d.filter((c) => {
-					return c.hardCC == true
+					return c.hardCC == true;
 				});
 			}
 			if(filter.engage){
 				d = d.filter((c) => {
-					return c.hardEngage == true
+					return c.hardEngage == true;
 				});
 			}
 			if(filter.dissengage){
 				d = d.filter((c) => {
-					return c.dissengage == true
+					return c.dissengage == true;
 				});
 			}
 			if(filter.poke){
 				d = d.filter((c) => {
-					return c.poke == true
+					return c.poke == true;
 				});
 			}
 			if(filter.waveClear){
 				d = d.filter((c) => {
-					return c.waveclear == true
+					return c.waveclear == true;
 				});
 			}
 			if(filter.tank){
 				d = d.filter((c) => {
-					return c.tank == true
+					return c.tank == true;
 				});
 			}
 			return d;
