@@ -30,6 +30,21 @@ export default class ChampionsService {
 					return c.name.toLowerCase().includes(filter.name);
 				});
 			}
+			if(filter.role != ""){
+				d = d.filter((c) => {
+					return c.lane.map((e) => e.toLowerCase()).includes(filter.role);
+				});
+			}
+			if(filter.damage != ""){
+				d = d.filter((c) => {
+					return c.damage.map((e) => e.toLowerCase()).includes(filter.damage);
+				});
+			}
+			if(filter.game != ""){
+				d = d.filter((c) => {
+					return c.game.map((e) => e.toLowerCase()).includes(filter.game);
+				});
+			}
 			if(filter.hardcc){
 				d = d.filter((c) => {
 					return c.hardCC == true;

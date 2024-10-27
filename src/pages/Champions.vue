@@ -10,6 +10,9 @@ const championSelected = ref(null);
 const expanded = ref(false);
 const filter = ref({
     "name": "",
+    "role": "",
+    "damage": "",
+    "game": "",
     "hardcc": false,
     "engage": false,
     "dissengage": false,
@@ -54,6 +57,25 @@ watch(
         championsService.getChampions(filter.value).then(data => champions.value = data);
     }
 )
+watch(
+    () => filter.value.role,
+    (role) => {
+        championsService.getChampions(filter.value).then(data => champions.value = data);
+    }
+)
+watch(
+    () => filter.value.damage,
+    (damage) => {
+        console.log(filter.value.damage)
+        championsService.getChampions(filter.value).then(data => champions.value = data);
+    }
+)
+watch(
+    () => filter.value.game,
+    (game) => {
+        championsService.getChampions(filter.value).then(data => champions.value = data);
+    }
+)
 </script>
 
 <template>
@@ -70,8 +92,8 @@ watch(
                                     </div>
                                 </li>
                                 <li class="nav-item" style="padding-right: 10px;">
-                                    <select class="form-select" style="width: 150px;" >
-                                        <option selected>Role</option>
+                                    <select class="form-select" v-model="filter.role" style="width: 150px;" >
+                                        <option value="" selected>Role</option>
                                         <option value="top">Top</option>
                                         <option value="jungle">Jungle</option>
                                         <option value="mid">Mid</option>
@@ -80,16 +102,16 @@ watch(
                                     </select>
                                 </li>
                                 <li class="nav-item"  style="padding-right: 10px;">
-                                    <select class="form-select" style="width: 150px;">
-                                        <option selected>Dégats</option>
-                                        <option value="magique">Magique</option>
-                                        <option value="physique">Physique</option>
+                                    <select class="form-select" v-model="filter.damage" style="width: 150px;">
+                                        <option value="" selected>Dégats</option>
+                                        <option value="magical">Magique</option>
+                                        <option value="physical">Physique</option>
                                         <option value="brut">Brut</option>
                                     </select>
                                 </li>
                                 <li class="nav-item"  style="padding-right: 10px;">
-                                    <select class="form-select" style="width: 150px;">
-                                        <option selected>Phases</option>
+                                    <select class="form-select" v-model="filter.game" style="width: 150px;">
+                                        <option value="" selected>Phases</option>
                                         <option value="early">Early</option>
                                         <option value="mid">Mid</option>
                                         <option value="late">Late</option>

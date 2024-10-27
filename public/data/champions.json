@@ -740,7 +740,7 @@
    "tank": false,
    "damage": [
       "MAGICAL",
-      ""
+      "PHYSICAL"
    ],
    "game": [
       "LATE",
