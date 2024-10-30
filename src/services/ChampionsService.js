@@ -55,9 +55,9 @@ export default class ChampionsService {
 					return c.hardEngage == true;
 				});
 			}
-			if(filter.dissengage){
+			if(filter.disengage){
 				d = d.filter((c) => {
-					return c.dissengage == true;
+					return c.disengage == true;
 				});
 			}
 			if(filter.poke){
@@ -85,7 +85,6 @@ export default class ChampionsService {
 			ids.forEach(id => {
 				r.push(d.filter((c) => c.id == id)[0]);
 			});
-			console.log(r);
 			return r;
 		});
 	}

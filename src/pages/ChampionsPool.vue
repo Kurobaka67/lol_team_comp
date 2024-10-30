@@ -1,36 +1,26 @@
-<script>
+<script setup>
 import ChampionsPoolService from '@/services/ChampionsPoolService';
 import ChampionCard from '@/components/ChampionCard.vue';
 import ChampionDetail from '@/components/ChampionDetail.vue';
+import { onMounted, ref } from 'vue';
 
-export default {
-    components: {
-		ChampionCard,
-        ChampionDetail
-	},
-    data() {
-		return {
-			championsTop: null,
-            championsJungle: null,
-            championsMid: null,
-            championsAdc: null,
-            championsSupport: null,
-            championSelected: null
-		}
-	},
-    mounted() {
-        const championsPoolService = new ChampionsPoolService();
-        championsPoolService.getChampionsTop().then(data => this.championsTop = data);
-        championsPoolService.getChampionsJungle().then(data => this.championsJungle = data);
-        championsPoolService.getChampionsMid().then(data => this.championsMid = data);
-        championsPoolService.getChampionsAdc().then(data => this.championsAdc = data);
-        championsPoolService.getChampionsSupport().then(data => this.championsSupport = data);
-    },
-    methods: {
-        changeChampionDetail(champ) {
-            this.championSelected = champ;
-        }
-    }
+const championsTop = ref(null);
+const championsJungle = ref(null);
+const championsMid = ref(null);
+const championsAdc = ref(null);
+const championsSupport = ref(null);
+const championSelected = ref(null);
+const championsPoolService = new ChampionsPoolService();
+
+onMounted(() => {
+    championsPoolService.getChampionsTop().then(data => championsTop.value = data);
+    championsPoolService.getChampionsJungle().then(data => championsJungle.value = data);
+    championsPoolService.getChampionsMid().then(data => championsMid.value = data);
+    championsPoolService.getChampionsAdc().then(data => championsAdc.value = data);
+    championsPoolService.getChampionsSupport().then(data => championsSupport.value = data);
+})
+const changeChampionDetail = (champ) => {
+    championSelected.value = champ;
 }
 </script>
 

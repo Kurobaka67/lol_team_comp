@@ -15,7 +15,7 @@ const filter = ref({
     "game": "",
     "hardcc": false,
     "engage": false,
-    "dissengage": false,
+    "disengage": false,
     "poke": false,
     "waveClear": false,
     "tank": false
@@ -34,8 +34,8 @@ const changeEngage = () => {
     filter.value.engage=!filter.value.engage;
     championsService.getChampions(filter.value).then(data => champions.value = data);
 }
-const changeDissengage = () => {
-    filter.value.dissengage=!filter.value.dissengage;
+const changeDisengage = () => {
+    filter.value.disengage=!filter.value.disengage;
     championsService.getChampions(filter.value).then(data => champions.value = data);
 }
 const changePoke = () => {
@@ -143,8 +143,8 @@ watch(
                                     </li>
                                     <li class="nav-item"  style="padding-top: 8px; padding-left: 10px;">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="dissengage" @click="changeDissengage">
-                                            <label class="form-check-label" for="dissengage">Dissengage</label>
+                                            <input class="form-check-input" type="checkbox" id="disengage" @click="changeDisengage">
+                                            <label class="form-check-label" for="disengage">Disengage</label>
                                         </div>
                                     </li>
                                     <li class="nav-item"  style="padding-top: 8px; padding-left: 10px;">
