@@ -1,0 +1,3698 @@
+[
+ {
+   "id": 1,
+   "name": "Annie",
+   "lane": [
+      "MID",
+      "SUPPORT"
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 10,
+   "name": "Kayle",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 101,
+   "name": "Xerath",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 102,
+   "name": "Shyvana",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      "PHYSICAL"
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 103,
+   "name": "Ahri",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 104,
+   "name": "Graves",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 105,
+   "name": "Fizz",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 106,
+   "name": "Volibear",
+   "lane": [
+      "TOP",
+      "JUNGLE"
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 107,
+   "name": "Rengar",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "EARLY"
+   ]
+},
+ {
+   "id": 11,
+   "name": "Maitre Yi",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      "BRUT"
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 110,
+   "name": "Varus",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 111,
+   "name": "Nautilus",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 112,
+   "name": "Viktor",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 113,
+   "name": "Sejuani",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 114,
+   "name": "Fiora",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      "BRUT"
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 115,
+   "name": "Ziggs",
+   "lane": [
+      "MID",
+      "ADC"
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 117,
+   "name": "Lulu",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 119,
+   "name": "Draven",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 12,
+   "name": "Alistar",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 120,
+   "name": "Hecarim",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 121,
+   "name": "Kha'zix",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 122,
+   "name": "Darius",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      "BRUT"
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 126,
+   "name": "Jayce",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 127,
+   "name": "Lissandra",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 13,
+   "name": "Ryze",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 131,
+   "name": "Diana",
+   "lane": [
+      "JUNGLE",
+      "MID"
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 133,
+   "name": "Quinn",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 134,
+   "name": "Syndra",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 136,
+   "name": "Aurelion",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 14,
+   "name": "Sion",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 141,
+   "name": "Kayn",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 142,
+   "name": "Zoe",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 143,
+   "name": "Zyra",
+   "lane": [
+      "SUPPORT",
+      "JUNGLE"
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 145,
+   "name": "Kaisa",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      "PHYSICAL"
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 147,
+   "name": "Seraphine",
+   "lane": [
+      "SUPPORT",
+      "MID"
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      "MAGICAL"
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 15,
+   "name": "Sivir",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 150,
+   "name": "Gnar",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": true,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 154,
+   "name": "Zac",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 157,
+   "name": "Yasuo",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 16,
+   "name": "Soraka",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 161,
+   "name": "Vel'koz",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "EARLY"
+   ]
+},
+ {
+   "id": 163,
+   "name": "Taliyah",
+   "lane": [
+      "MID",
+      "JUNGLE"
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 164,
+   "name": "Camille",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 166,
+   "name": "Akshan",
+   "lane": [
+      "MID",
+      "TOP"
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 17,
+   "name": "Teemo",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 18,
+   "name": "Tristana",
+   "lane": [
+      "ADC",
+      "MID"
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 19,
+   "name": "Warwick",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 2,
+   "name": "Olaf",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 20,
+   "name": "Nunu",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 200,
+   "name": "Belveth",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      "BRUT"
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 201,
+   "name": "Braum",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 202,
+   "name": "Jhin",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 203,
+   "name": "Kindred",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 21,
+   "name": "Miss Fortune",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 22,
+   "name": "Ashe",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 221,
+   "name": "Zeri",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 222,
+   "name": "Jinx",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 223,
+   "name": "Tahm kench",
+   "lane": [
+      "TOP",
+      "SUPPORT"
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 23,
+   "name": "Tryndamere",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 233,
+   "name": "Briar",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 234,
+   "name": "Viego",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 235,
+   "name": "Senna",
+   "lane": [
+      "SUPPORT",
+      "ADC"
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 236,
+   "name": "Lucian",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 238,
+   "name": "Zed",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 24,
+   "name": "Jax",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      "MAGICAL"
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 240,
+   "name": "Kled",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 245,
+   "name": "Ekko",
+   "lane": [
+      "JUNGLE",
+      "MID"
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 246,
+   "name": "Qiyana",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 25,
+   "name": "Morgana",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 254,
+   "name": "Vi",
+   "lane": [
+      "JUGNLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 26,
+   "name": "Zilean",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      "UTILITY"
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 266,
+   "name": "Aatrox",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 267,
+   "name": "Nami",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 268,
+   "name": "Azir",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 27,
+   "name": "Singed",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 28,
+   "name": "Evelyn",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 29,
+   "name": "Twitch",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 3,
+   "name": "Galio",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 30,
+   "name": "Khartus",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 31,
+   "name": "Chogath",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 32,
+   "name": "Amumu",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 33,
+   "name": "Rammus",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 34,
+   "name": "Anivia",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 35,
+   "name": "Shaco",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      "MAGICAL"
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 350,
+   "name": "Yummi",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 36,
+   "name": "Mundo",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      "MAGICAL"
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 360,
+   "name": "Samira",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 37,
+   "name": "Sona",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 38,
+   "name": "Kassadin",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 39,
+   "name": "Irelia",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 4,
+   "name": "Twisted Fate",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 40,
+   "name": "Janna",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 41,
+   "name": "Gankplank",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 412,
+   "name": "Thresh",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 42,
+   "name": "Corki",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 420,
+   "name": "Illaoi",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 421,
+   "name": "Rek'sai",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 427,
+   "name": "Ivern",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 429,
+   "name": "Kalista",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 43,
+   "name": "Karma",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      "MAGICAL"
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 432,
+   "name": "Bard",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 44,
+   "name": "Taric",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 45,
+   "name": "Veigar",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 48,
+   "name": "Trundle",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 497,
+   "name": "Rakan",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 498,
+   "name": "Xayah",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 5,
+   "name": "Xin zhao",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 50,
+   "name": "Swain",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 51,
+   "name": "Caitlyn",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 516,
+   "name": "Ornn",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 517,
+   "name": "Sylas",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 518,
+   "name": "Neeko",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 523,
+   "name": "Aphelios",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 526,
+   "name": "Rell",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 53,
+   "name": "Blitzcrank",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 54,
+   "name": "Malphite",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 55,
+   "name": "Katarina",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 555,
+   "name": "Pyke",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 56,
+   "name": "Nocturne",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 57,
+   "name": "Maokai",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 58,
+   "name": "Renekton",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 59,
+   "name": "Jarvan",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 6,
+   "name": "Urgot",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 60,
+   "name": "Elise",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 61,
+   "name": "Orianna",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 62,
+   "name": "Wukong",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 63,
+   "name": "Brand",
+   "lane": [
+      "MID",
+      "JUNGLE"
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 64,
+   "name": "Lee sin",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      ""
+   ]
+},
+ {
+   "id": 67,
+   "name": "Vayne",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      "BRUT"
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 68,
+   "name": "Rumble",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 69,
+   "name": "Cassiopea",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 7,
+   "name": "Leblanc",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 711,
+   "name": "Vex",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 72,
+   "name": "Skarner",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 74,
+   "name": "Heimerdinger",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 75,
+   "name": "Nasus",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 76,
+   "name": "Nidalee",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 77,
+   "name": "Udyr",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      "MAGICAL"
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 777,
+   "name": "Yone",
+   "lane": [
+      "MID",
+      "TOP"
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 78,
+   "name": "Poppy",
+   "lane": [
+      "TOP",
+      "JUNGLE"
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 79,
+   "name": "Gragas",
+   "lane": [
+      "JUNGLE",
+      "TOP"
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 8,
+   "name": "Vladimir",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 80,
+   "name": "Pantheon",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 81,
+   "name": "Ezreal",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 82,
+   "name": "Mordekaiser",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 83,
+   "name": "Yorick",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 84,
+   "name": "Akali",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 85,
+   "name": "Kenen",
+   "lane": [
+      "TOP",
+      "MID"
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 86,
+   "name": "Garen",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      "BRUT"
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 875,
+   "name": "Sett",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      "BRUT"
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 876,
+   "name": "Lillia",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 887,
+   "name": "Gwen",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 888,
+   "name": "Renata",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": true,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 89,
+   "name": "Leona",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 893,
+   "name": "Aurora",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "EARLY"
+   ]
+},
+ {
+   "id": 895,
+   "name": "Nilha",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 897,
+   "name": "Ksante",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 9,
+   "name": "Fiddlestick",
+   "lane": [
+      "JUNGLE",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 90,
+   "name": "Malzahar",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      ""
+   ]
+},
+ {
+   "id": 901,
+   "name": "Smolder",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 902,
+   "name": "Milio",
+   "lane": [
+      "SUPPORT",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "UTILITY",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "EARLY"
+   ]
+},
+ {
+   "id": 91,
+   "name": "Talon",
+   "lane": [
+      "JUNGLE",
+      "MID"
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 910,
+   "name": "Hwei",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "MID",
+      "LATE"
+   ]
+},
+ {
+   "id": 92,
+   "name": "Riven",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "LATE",
+      "MID"
+   ]
+},
+ {
+   "id": 950,
+   "name": "Naafiri",
+   "lane": [
+      "MID",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": false,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+},
+ {
+   "id": 96,
+   "name": "Kogmaw",
+   "lane": [
+      "ADC",
+      ""
+   ],
+   "hardCC": false,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": false,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      "PHYSICAL"
+   ],
+   "game": [
+      "LATE",
+      ""
+   ]
+},
+ {
+   "id": 98,
+   "name": "Shen",
+   "lane": [
+      "TOP",
+      ""
+   ],
+   "hardCC": true,
+   "hardEngage": true,
+   "disengage": false,
+   "poke": false,
+   "waveclear": false,
+   "tank": true,
+   "damage": [
+      "PHYSICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "LATE"
+   ]
+},
+ {
+   "id": 99,
+   "name": "Lux",
+   "lane": [
+      "MID",
+      "SUPPORT"
+   ],
+   "hardCC": true,
+   "hardEngage": false,
+   "disengage": false,
+   "poke": true,
+   "waveclear": true,
+   "tank": false,
+   "damage": [
+      "MAGICAL",
+      ""
+   ],
+   "game": [
+      "EARLY",
+      "MID"
+   ]
+}
+]
