@@ -106,6 +106,7 @@ watch(
                                         <option value="" selected>Dégats</option>
                                         <option value="magical">Magique</option>
                                         <option value="physical">Physique</option>
+                                        <option value="utility">Utilité</option>
                                         <option value="brut">Brut</option>
                                     </select>
                                 </li>

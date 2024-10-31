@@ -255,7 +255,7 @@
    "waveclear": false,
    "tank": true,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -365,7 +365,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -409,7 +409,7 @@
    "waveclear": false,
    "tank": true,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -761,8 +761,8 @@
    "waveclear": true,
    "tank": false,
    "damage": [
-      "MAGICAL",
-      ""
+      "UTILITY",
+      "MAGICAL"
    ],
    "game": [
       "LATE",
@@ -871,7 +871,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -1113,7 +1113,7 @@
    "waveclear": false,
    "tank": true,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -1554,7 +1554,7 @@
    "tank": false,
    "damage": [
       "MAGICAL",
-      ""
+      "UTILITY"
    ],
    "game": [
       "EARLY",
@@ -1597,7 +1597,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -1861,7 +1861,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -1927,7 +1927,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -2015,7 +2015,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -2059,7 +2059,7 @@
    "waveclear": false,
    "tank": true,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -2191,8 +2191,8 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
-      ""
+      "UTILITY",
+      "MAGICAL"
    ],
    "game": [
       "EARLY",
@@ -2213,7 +2213,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -2235,7 +2235,7 @@
    "waveclear": false,
    "tank": true,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -2499,7 +2499,7 @@
    "waveclear": false,
    "tank": true,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -2521,7 +2521,7 @@
    "waveclear": false,
    "tank": true,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -3357,7 +3357,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -3379,7 +3379,7 @@
    "waveclear": false,
    "tank": true,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
@@ -3533,7 +3533,7 @@
    "waveclear": false,
    "tank": false,
    "damage": [
-      "MAGICAL",
+      "UTILITY",
       ""
    ],
    "game": [
